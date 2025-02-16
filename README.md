@@ -1,6 +1,6 @@
 ![alt text](https://github.com/julietteyek/WhoIsTalking/blob/main/logo_who_is_talkig.png "Logo_Who_is_talking?")
 
-"Who is Talking?" is a project that seeks to leverage machine learning and natural language processing (NLP) techniques to classify political speech based on its ideological leaning. By analyzing linguistic patterns and contextual cues, the project aims to provide insights into how different political groups communicate and frame their messages.This tool analyzes a text and shows you which party it most likely would belong to. Simply insert the text, analyze it and get the results in seconds.\
+"Who is Talking?" is a project that seeks to leverage machine learning and natural language processing (NLP) techniques to classify political speech based on its ideological leaning. By analyzing linguistic patterns and contextual cues, the project aims to provide insights into how different political groups communicate and frame their messages.This tool analyzes a text and shows you which party it most likely would belong to. Simply insert the text, analyze it and get the results.\
 [This poster](https://github.com/julietteyek/WhoIsTalking/blob/main/Who_is_talking.pdf) summarises all the important information and results.
 
 ## Inhaltsverzeichnis
