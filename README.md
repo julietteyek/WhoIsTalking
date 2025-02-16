@@ -1,10 +1,16 @@
-# WhoIsTalking
-Discover what lays behind political speeches. "Who is talking?" analyzes a text and shows you which party it most likely would belong to. Simply insert the text, analyze it and get the results in seconds.
-This [poster](https://github.com/julietteyek/WhoIsTalking/blob/main/Poster_whoistalking.pdf) summarises all the important information and results.
+# Who is talking?
+Discover what lays behind political speeches. "Who is talking?" analyzes a text and shows you which party it most likely would belong to. Simply insert the text, analyze it and get the results in seconds.\
+[This poster](https://github.com/julietteyek/WhoIsTalking/blob/main/Who_is_talking.pdf) summarises all the important information and results.
 
-## <ins>Inhaltsverzeichnis</ins>
+## Inhaltsverzeichnis
 
-## <ins>Motivation</ins>
+1. [Motivation](##Motivation)
+2. [Method](##Method)
+3. [Installation & Usage](##Installation&Usage)
+4. [Outlook](##Outlook)
+5. [Acknowledgements](##Acknowledgements)
+
+## Motivation
 
 Wouldn't it be interesting to know what political affiliation can be inferred from a text? And that from a more neutral observer than humans?
 
@@ -22,29 +28,32 @@ This project represents the first stage of this application. Many envisioned dev
 
 
 
-## <ins>Method</ins>
+## Method
 
 ...
 
 
 
-## <ins>Installation & Usage</ins>
+## Installation & Usage
 
-###A. Prerequisites
+###  A. Prerequisites
 
 Ensure you have Python 3.8+ and install the required dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
-###B. Running the Application
+### B. Running the Application
 
 You can test the model on a sample text via the streamlit app by running:
 
+``` bash 
 streamlit run application.py
+```
 
 
-
-## <ins>Outlook</ins>
+## Outlook
 
 Multilingual Expansion: Including multiple languages and dialects for international scalability.
 
@@ -56,9 +65,10 @@ Media Bias Assessment: Extending the tool to assess political bias in public med
 
 
 
-## <ins>Acknowledgements</ins>
+## Acknowledgements
 
-This project utilizes BERT-base-uncased and is inspired by NLP research in political speech analysis. Special thanks to Ana Calotescu for providing most of the datasets used for this application.
+This project utilizes BERT-base-uncased and is inspired by NLP research in political speech analysis.\
+Special thanks to Ana Calotescu for providing most of the datasets used for this application.
 
 
-For questions, contributions, or discussions, feel free to open an issue or reach out!
+*For questions, contributions, or discussions, feel free to open an issue or reach out!*
