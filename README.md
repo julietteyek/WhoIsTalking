@@ -6,7 +6,7 @@ Discover what lays behind political speeches. "Who is talking?" analyzes a text 
 
 1. [Motivation](##Motivation)
 2. [Method](##Method)
-3. [Installation & Usage](##Installation&Usage)
+3. [Installation & Usage](##Installation-&-Usage)
 4. [Outlook](##Outlook)
 5. [Acknowledgements](##Acknowledgements)
 
