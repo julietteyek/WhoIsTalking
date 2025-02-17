@@ -6,10 +6,9 @@
 ## Inhaltsverzeichnis
 
 1. [Motivation](##Motivation)
-2. [Method](##Method)
-3. [Installation & Usage](##Installation-&-Usage)
-4. [Outlook](##Outlook)
-5. [Acknowledgements](##Acknowledgements)
+2. [Installation & Usage](##Installation-&-Usage)
+3. [Outlook](##Outlook)
+4. [Acknowledgements](##Acknowledgements)
 
 ## Motivation
 
