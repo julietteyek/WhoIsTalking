@@ -1,6 +1,6 @@
 ![alt text](https://github.com/julietteyek/WhoIsTalking/blob/main/logo_who_is_talkig.png "Logo_Who_is_talking?")
 
-"Who is Talking?" is a project that seeks to leverage machine learning and natural language processing (NLP) techniques to classify political speech based on its ideological leaning. By analyzing linguistic patterns and contextual cues, the project aims to provide insights into how different political groups communicate and frame their messages.This tool analyzes a text and shows you which party it most likely would belong to. Simply insert the text, analyze it and get the results.\
+"Who is Talking?" is a project that seeks to leverage machine learning and natural language processing (NLP) techniques to classify political speech based on its ideological leaning. By analyzing linguistic patterns and contextual cues, the project aims to provide insights into how different political groups communicate and frame their messages.This tool analyzes a text and shows you which party it most likely would belong to. Simply insert the text, analyze it and get the results. Trained only with German texts.\
 [This poster](https://github.com/julietteyek/WhoIsTalking/blob/main/Who_is_talking.pdf) summarises all the important information and results.
 
 ## Inhaltsverzeichnis
@@ -17,7 +17,7 @@ Wouldn't it be interesting to know what political affiliation can be inferred fr
 
 "Who is talking?" aims to create a tool that analyzes language in terms of its political orientation and reliably estimates its political direction.
 
-Beyond personal amusement—like analyzing a family chat message and sending the result back without comment—this project has broader benefits:
+Beyond personal amusement — like analyzing a family chat message and sending the result back without comment — this project aims to provide broader benefits like:
 
 - Uncovering the political bias of articles and news
 
@@ -29,12 +29,6 @@ This project represents the first stage of this application. Many envisioned dev
 
 
 
-## Method
-
-...
-
-
-
 ## Installation & Usage
 
 ###  A. Prerequisites
@@ -42,7 +36,7 @@ This project represents the first stage of this application. Many envisioned dev
 Ensure you have Python 3.8+ and install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 ```
 
 ### B. Running the Application
@@ -52,7 +46,12 @@ You can test the model on a sample text via the streamlit app by running:
 ``` bash 
 streamlit run application.py
 ```
+in the src-folder.
 
+The current Model "bundestag-speeches-lite" is uploaded on Huggingface and is accessed in my code with
+``` 
+model = BertForSequenceClassification.from_pretrained("julietteyek/bundestag-speeches-lite")
+```
 
 ## Outlook
 
