@@ -41,7 +41,7 @@ pip install -r src/requirements.txt
 
 ### B. Running the Application
 
-You can test the model on a sample text via the streamlit app by running:
+You can test the model on a text of your choice (in German) via the streamlit app by running:
 
 ``` bash 
 streamlit run application.py
