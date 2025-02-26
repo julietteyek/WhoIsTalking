@@ -32,7 +32,8 @@ This project represents the first stage of this application. Many envisioned dev
 
 ###  A. Prerequisites
 
-Ensure you have Python 3.8+ and install the required dependencies:
+First: Clone this repository and ideally create either a new environment or an envionment where torch is working conflict-free.
+Ensure you have Python 3.8+ and install the required dependencies from the WhoIsTalking folder:
 
 ```bash
 pip install -r src/requirements.txt
@@ -51,7 +52,7 @@ The current Model "bundestag-speeches-lite" is uploaded on Huggingface and is ac
 ``` 
 model = BertForSequenceClassification.from_pretrained("julietteyek/bundestag-speeches-lite")
 ```
-
+🔒 No inputs are being saved as for this version. 🔒
 ## Outlook
 
 Multilingual Expansion: Including multiple languages and dialects for international scalability.
