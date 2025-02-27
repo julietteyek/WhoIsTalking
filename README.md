@@ -55,6 +55,8 @@ model = BertForSequenceClassification.from_pretrained("julietteyek/bundestag-spe
 🔒 No inputs are being saved as for this version. 🔒
 ## Outlook
 
+(First, I will need to speed up the analysis process a lot, I know :D)
+
 Multilingual Expansion: Including multiple languages and dialects for international scalability.
 
 Topic Sentiment Analysis: Providing deeper insights into political discourse by analyzing how different parties frame topics like healthcare or immigration.
